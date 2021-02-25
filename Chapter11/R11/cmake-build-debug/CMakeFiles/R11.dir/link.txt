@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\R11.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\R11.dir/objects.a @CMakeFiles\R11.dir\objects1.rsp
+D:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\R11.dir/objects.a -Wl,--no-whole-archive  -o R11.exe -Wl,--out-implib,libR11.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\R11.dir\linklibs.rsp
